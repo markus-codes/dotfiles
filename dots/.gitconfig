@@ -74,3 +74,6 @@
 [credential]
 	helper = osxkeychain
 	excludesfile = /Users/markusheinemann/.gitignore_global
+
+[init]
+    defaultBranch = main
