@@ -4,10 +4,6 @@
 	name = Markus Heinemann
 	email = markus.heinemann@trustify.ch
 
-[branch "main"]
-    remote = origin
-    merge = refs/heads/main
-
 [color]
     branch = always
     diff = always
@@ -42,7 +38,7 @@
 [core]
     pager = less -FRSX
     whitespace = fix,-indent-with-non-tab,trailing-space,cr-at-eol
-	editor = nano
+	editor = vim
 
 [diff]
     tool = vimdiff
